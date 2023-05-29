@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fake News Detection</title>
+    <link
+      rel="stylesheet"
+      href="{{url_for('static', filename='style.css')}}"
+    />
+  </head>
+  <body>
+    <h1 class="heading">Fake News Detection</h1>
+    <div class="container">
+      <h3>
+        Enter your news to predict whether it is fake or real in an instant
+      </h3>
+      <div class="predict">
+        <form action="/predict" method="POST">
+          <textarea
+            name="text"
+            rows="10"
+            cols="50"
+            placeholder="Enter the news text"
+          ></textarea>
+          <br />
+          <input type="submit" value="Submit" class="button" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,45 @@
+/* Add your custom styles here */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+p {
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.heading{
+  text-align: center;
+}
+
+.container .form{
+  margin-left: auto;
+  margin-right: auto;
+
+}
+h3{
+  text-align: center;
+}
+
+.predict{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+.button{
+  margin-top: 20px;
+  padding: 5px;
+  border-radius: 20%;
+}
+
+.para{
+  text-align: center;
+}
